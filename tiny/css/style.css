@@ -1,0 +1,119 @@
+body {
+	line-height: 1.2;
+    height: 100%;
+    background: #ffffff url('../img/banner01.jpg') no-repeat center top;
+    background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+
+
+.content
+{
+	margin-top: 50px;
+	color: #fff;
+}
+
+
+.sub-p
+{
+	font-size: 14px;
+	padding: 5px 0px 15px;
+}
+
+
+.shortenurl 
+{
+    width: 60%;
+    margin: 0 auto 50px;
+}
+
+
+.validation {
+    color: red;
+    display:none;
+    margin: 0 0 20px;
+    font-weight:400;
+    font-size:13px;
+}
+
+
+.credits {
+    padding-top: 10px;
+}
+
+.shortenurl_form {
+    position: relative;
+}
+.shortenurl_form .shortenbtn {
+    right: 0px;
+    top: 0px;
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    color: #FFF;
+    background-color: #24B7A4;
+    border: medium none;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+h2.title  {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    padding: 30px 0px 20px;
+}
+.shortenurl_form input {
+    height: 50px;
+    border: none;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border-radius: 30px;
+    color: #000;
+}
+.shortenurl_form input[type=url]
+{
+    padding-left: 30px;
+}
+/**********************************
+Media Queries
+***********************************/
+@media (min-width: 501px) and (max-width: 901px) {
+    .contact-title{
+        padding: 15px;
+}
+.section-padding {
+        padding: 60px 30px;
+}
+.shortenurl_form .subscribe {
+    width: 100px;
+    font-size: 15px;
+}
+.subcription-info {
+        width: 60%;
+        margin: 0 auto;
+}
+body{
+    overflow-x:hidden; 
+}
+}
+@media (min-width: 20px) and (max-width: 500px) {
+    .contact-title{
+        padding: 15px;
+}
+.section-padding {
+        padding: 60px 30px;
+}
+.subscribe_form .subscribe {
+    width: 100px;
+    font-size: 15px;
+}
+.subcription-info {
+        width: 80%;
+        margin: 0 auto;
+}
+}
